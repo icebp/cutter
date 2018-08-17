@@ -297,7 +297,9 @@ HEADERS  += \
     utils/InitialOptions.h \
     dialogs/SetFunctionVarTypes.h \
     utils/ColorSchemeFileSaver.h \
-    widgets/ColorSchemePrefWidget.h 
+    widgets/ColorSchemePrefWidget.h \
+    dialogs/SetFunctionVarTypes.h \
+    utils/Json.h
 
 FORMS    += \
     dialogs/AboutDialog.ui \
