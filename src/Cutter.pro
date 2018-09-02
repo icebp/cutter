@@ -198,7 +198,9 @@ SOURCES += \
     dialogs/SetToDataDialog.cpp \
     dialogs/SetFunctionVarTypes.cpp \
     widgets/ColorSchemePrefWidget.cpp \
-    utils/ColorSchemeFileSaver.cpp
+    utils/ColorSchemeFileSaver.cpp \
+    dialogs/SetFunctionVarTypes.cpp \
+    dialogs/EditMethodDialog.cpp
 
 HEADERS  += \
     Cutter.h \
@@ -299,7 +301,8 @@ HEADERS  += \
     utils/ColorSchemeFileSaver.h \
     widgets/ColorSchemePrefWidget.h \
     dialogs/SetFunctionVarTypes.h \
-    utils/Json.h
+    utils/Json.h \
+    dialogs/EditMethodDialog.h
 
 FORMS    += \
     dialogs/AboutDialog.ui \
@@ -355,7 +358,8 @@ FORMS    += \
     widgets/RegisterRefsWidget.ui \
     dialogs/SetToDataDialog.ui \
     dialogs/SetFunctionVarTypes.ui \
-    widgets/ColorSchemePrefWidget.ui
+    widgets/ColorSchemePrefWidget.ui \
+    dialogs/EditMethodDialog.ui
 
 RESOURCES += \
     resources.qrc \
